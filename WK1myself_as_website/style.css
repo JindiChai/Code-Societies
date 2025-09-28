@@ -75,63 +75,6 @@ main{
   padding:5dvw;
 }
 
-/* loading part */
-/* #loader {
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.spinner {
-  margin: 0 auto;
-  width: 40px;
-  height: 40px;
-  position: relative;
-}
-
-.spinner:before {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
-
-.spinner:after {
-  content: "";
-  display: block;
-  border-radius: 50%;
-  width: 0;
-  height: 0;
-  margin: -20% 0 0 -20%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border: 2px solid #222222;
-  border-color: #222222 transparent #222222 transparent;
-  animation: spin 1.2s linear infinite;
-}
-
-.text {
-  font-family: monospace;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: #222222;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-} */
-/* loading part */
-
 #video1{
   position: fixed;
   left: 0;
