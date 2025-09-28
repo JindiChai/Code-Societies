@@ -75,46 +75,11 @@ main{
   padding:5dvw;
 }
 
-#video1{
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 76vh;
-  top:100vh;
-  z-index: 0;
-  background-color: #222222;
-  transition: 0.3s all ease;
-  
-}
-video{
-  height: 70vh;
-  width: 100vw;
-
-}
-
 a{
   text-decoration: none;
   color: #ffffff;
 }
 
-#close{
- position: relative;
- left: 95vw;
- padding-top: 20px;
- padding-bottom: 5px;
-}
-
-#video2{
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 76vh;
-  top:100vh;
-  z-index: 0;
-  background-color: #222222;
-  transition: 0.3s all ease;
-  text-align: center;
-}
 
 img{
   height: 72vh;
@@ -122,13 +87,6 @@ img{
   top:2vh;
 }
 
-#close2{
-  position: fixed;
-  left: 95vw;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  z-index: 99;
-}
 
 .blank{
 height: 60px;
