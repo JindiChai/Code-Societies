@@ -1,0 +1,77 @@
+* { 
+  box-sizing: border-box; 
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('file/Mont-HeavyDEMO.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TheBoldFont';
+  src: url('file/THEBOLDFONT-FREEVERSION.ttf') format('truetype');
+}
+
+body { 
+  margin: 0; 
+  font-family: Mont, sans-serif; 
+  background:#f7f3ea; 
+}
+
+
+.sidebar {
+  position: fixed;
+  left: 16px; top: 16px; bottom: 16px; width: 170px;
+  padding: 16px 10px;
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA0ElEQVR4AeyXQQqFMAxE/V7P5T+nS8+nq2xeCYIZJSkRSpnSJpNHLHRd8P237cwwYGsZjHJDFj0Y3Y/jl2EQ0GCUG7Lo1foxiyH6MH91iLICT1tl6tnLx/X5iL51E5Ccp+sTtV70KlSv3+WrT1RNLBqviUYJ8nwTJZGobqJRgjzfREkkqptolCDPT0eUBX6um6gaeRNtomoC6nj1e9Te8WoyXry7fPWJsnJ7d6tn5vH0fESth9SzR5DrdYgaIVaQRZu/OkRJTv1XP41HX2WIXgAAAP//SllW/gAAAAZJREFUAwDTu5k0yr+pDgAAAABJRU5ErkJggg==") 14 /  14px / 0 round;
+  border-width:  14px;
+  background:#fffaf0;
+  background-image: url('file/Drawing.png');
+  background-repeat: no-repeat; 
+  background-position: bottom center;
+  background-size: contain;  
+  background-blend-mode: multiply;
+}
+.hint { 
+  font-family: TheBoldFont, sans-serif; 
+  font-size: 16px; 
+  color:#555; 
+  margin: 6px 8px 10px; 
+}
+
+
+.chip {
+  width: 120px; height: 46px;
+  margin: 10px auto;
+
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA0ElEQVR4AeyXQQqFMAxE/V7P5T+nS8+nq2xeCYIZJSkRSpnSJpNHLHRd8P237cwwYGsZjHJDFj0Y3Y/jl2EQ0GCUG7Lo1foxiyH6MH91iLICT1tl6tnLx/X5iL51E5Ccp+sTtV70KlSv3+WrT1RNLBqviUYJ8nwTJZGobqJRgjzfREkkqptolCDPT0eUBX6um6gaeRNtomoC6nj1e9Te8WoyXry7fPWJsnJ7d6tn5vH0fESth9SzR5DrdYgaIVaQRZu/OkRJTv1XP41HX2WIXgAAAP//SllW/gAAAAZJREFUAwDTu5k0yr+pDgAAAABJRU5ErkJggg==") 14 /  14px / 0 round;
+  border-width:  14px;
+  border-style:  solid;
+
+  background: #F0DCDC;
+  background: radial-gradient(circle, rgb(255, 234, 234) 0%, rgba(247, 243, 234, 1) 70%);
+  display: flex; align-items:center; justify-content:center;
+  cursor: grab; user-select: none;
+  font-weight: 700;
+  letter-spacing: .5px;
+  position: relative;
+}
+.chip:active { cursor: grabbing; }
+
+
+.stage {
+  position: fixed;
+  left: 200px; right: 0px; top: 0px; bottom: 0px;
+  overflow: hidden;
+  background-image: url('file/pal-tomorrow_night\ blue-l03749999999999998-h5625000000000009-s1-20251012T232605Z.png');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+
+.placed {
+  position: absolute;
+  margin: 0;
+}
