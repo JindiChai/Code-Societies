@@ -1,1 +1,7 @@
-html, body { margin:0; padding:0; overflow:hidden; background:#fff; }
+html, body { 
+    margin:0; 
+    padding:0; 
+    overflow:hidden; 
+    background:#FFFBF5;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+ }
